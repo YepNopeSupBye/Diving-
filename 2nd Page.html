@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:rgb(0, 0, 0);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #bbb;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #3e54a0;
+  padding: 10px;
+  border: solid black 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  color: blue;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+#div1{ 
+  padding: 10px;
+  text-align: center;
+    border: solid 4px black;
+    background-color: #3e54a0;
+}
+
+#Intro{ 
+  color: red; 
+  font-family: monospace;
+  font-size: 14px;
+  
+}
+#Ray{ font-family: monospace; 
+font-size:14px;
+color: darkred;
+ }
+#AT{ font-family: cursive;
+color: darkred;
+ }
+
+</style>
+</head>
+<body>w
+
+
+
+
+
+
+
+<div id="div1">
+<h1>Intro To Diving</h1>
+<p id="Intro">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sodales, neque eget mollis tincidunt, est arcu sollicitudin est, ac feugiat dui libero a magna. Integer non iaculis arcu. Sed volutpat tellus ligula, non pellentesque nisi ullamcorper at. Duis bibendum consequat lacinia. Integer dapibus enim sit amet arcu interdum maximus. Suspendisse dignissim rhoncus tellus, sit amet ullamcorper erat cursus sed. Pellentesque eget luctus magna. Ut velit arcu, commodo vitae tincidunt non, tempor non enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed in volutpat leo, in rutrum orci. Nunc hendrerit fringilla pharetra. Fusce ultricies porta justo ac luctus./p>
+</div>
+
+<header>
+</header> 
+  <article>
+    <h1 id="AT">MANTA RAY AT 5 METERS</h1>
+    <p class="Ray">Duis vulputate nulla at tortor bibendum, et egestas ipsum finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis, augue vitae hendrerit interdum, lacus purus hendrerit nisi, id bibendum est nunc sit amet mi. Phasellus aliquam condimentum nulla vel bibendum. Mauris consectetur pretium elit, eu cursus mi tincidunt ac. Curabitur ac eros nec justo dictum condimentum. Morbi sit amet ligula scelerisque, lobortis est rhoncus, sollicitudin ex. Donec vel tristique dolor. Curabitur ac aliquet turpis. Sed non enim vel turpis hendrerit tristique. </p>
+    <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis rutrum ex sed commodo. Nunc tristique sit amet nulla molestie elementum. Duis finibus eros sem, quis feugiat nulla ultrices faucibus. Cras a bibendum libero. Nam justo urna, egestas a mi eu, pharetra ornare ligula. Phasellus ornare ex eu orci tempor, pulvinar consectetur dui ultrices. Nullam tincidunt dolor in dui gravida ultrices.</p>
+  </article>
+</section>
+
+<footer>
+  <a>
+    <img src="MANTA.webp" id="Manta">
+  <a>
+</footer>
+
+</body>
+</html>
