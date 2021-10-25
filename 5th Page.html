@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: skyblue;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: skyblue;
+  border: dashed 5px royalblue;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: royalblue;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: skyblue;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: royalblue;
+  width: 100%;
+  padding: 20px;
+  color: lightgreen;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: powderblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: royalblue;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>5th Page</h1>
+  <p>Animals/Fun Facts.</p>
+</div>
+
+<div class="topnav">
+  <a href="1st page.html">PAGE 1 </a>
+  <a href="2nd Page.html">PAGE 2</a>
+  <a href="3rd Page.html">PAGE 3</a>
+   <a href="4th page.html">PAGE 4</a>
+    <a href="6th page.html">PAGE 6</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Sharks</h2>
+      <h5>Common sharks you might see while diving</h5>
+      <div><img src="black-tip.jpg"></div>
+      <p>there are many types of sharks in the ocean 440 to be exact, but you would rarely see most of them. the most common types of sharks you would see while divning are the black-tip reef shark, white-tip reef shark and a few more.</p>
+      <p> there are very few sharks that would attack you, and shark attacks are a 1 in 5 million chance and deaths are 1 in 200 million. the types of sharks you should look out for though are the great white, bull shark and the tiger shark which are the top 3 most aggressive sharks  </p>
+    </div>
+    <div class="card">
+      <h2>Fish</h2>
+      <h5>Common Fish you might see while diving </h5>
+      <div><img src="fish.jpg"></div>
+      <p>There are over 30,000 species of fish, and </p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Fun Fact</h2>
+      <div><img src="color.jpg"></div>
+      <p>.Once you get below 10 metres depth, you can't see red or yellow!</p>
+    </div>
+    <div class="card">
+      <h3> 3 Songs about the ocean and diving</h3>
+      <div class="fakeimg"> <a> 'Surfin' USA' – The Beach Boys. </a> </div>
+      <div class="fakeimg"><p>'Ocean Eyes' – Billie Eilish.</p></div>
+      <div class="fakeimg"><p> Octupus Garden - The Beatles</p></div>
+    </div>
+    <div class="card">
+      <h3>Fun fact about the sea</h3>
+      <p>we know that most of the water in the oceans (and on the rest of the planet) is very ancient - on the order of 4 billion years old.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>DIVING BOIS</h2>
+</div>e
+</body>
+</html>
+
+
